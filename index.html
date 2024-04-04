@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Grape+Nuts&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Grape+Nuts&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h2 class="head1">Transform,Transition and Animation</h2>
+        <h4 class="head2">A complete Guide</h4>
+        <h3 class="head3">Static Image</h3>
+    </div>
+    <div class="main2">
+        <img src="https://images.hindustantimes.com/tech/rf/image_size_960x540/HT/p2/2020/03/03/Pictures/_a46a803c-5d4f-11ea-bcc0-e4d0c7a68e9a.jpg">
+    </div>
+
+    <!--transfrom1-->
+
+    <div class="Transition">
+        <div class="Transform1">
+            <div class="main-one">
+                <img class="translate-x" src="https://wallpaper.dog/large/975725.jpg">
+            </div>
+            <h1>Transform:translateX ()</h1>
+        </div>
+        <div class="Transform1">
+            <div class="main-two">
+                <img class="translate-y"
+                    src="data:image/jpeg;base64,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">
+            </div>
+            <h1>Transform:translateY ()</h1>
+        </div>
+        <div class="Transform1">
+            <div class="main-three">
+                <img class="translate"
+                    src="https://www.pixel4k.com/wp-content/uploads/2018/12/pubg-playerunknown-s-battlegrounds-4k-wallpaper_1544827349.jpg.webp">
+            </div>
+            <h1>Transform:translate ()</h1>
+        </div>
+    </div>
+
+    <!--transfrom2-->
+
+    <div class="Transition2">
+        <div class="translate1">
+            <div class="one">
+                <img class="translate-xn" src="https://i.pinimg.com/736x/3d/45/db/3d45db1f30616b6f8574b74f0d016afd.jpg">
+            </div>
+            <h1>Transform:translateX (-)</h1>
+        </div>
+        <div class="translate1">
+            <div class="two">
+                <img class="translate-yn"
+                    src="https://staticg.sportskeeda.com/editor/2023/03/be2dd-16785983696426-1920.jpg">
+            </div>
+            <h1>Transform:translateY (-)</h1>
+        </div>
+        <div class="translate1">
+            <div class="three">
+                <img class="translaten"
+                    src="https://e0.pxfuel.com/wallpapers/768/752/desktop-wallpaper-fortnite-cool-pubg-pubg-squad.jpg">
+            </div>
+            <h1>Transform:translate (-)</h1>
+        </div>
+    </div>
+
+    <!--transform3-->
+    <div class="Transition3">
+        <div class="translate2">
+            <div class="x">
+                <img class="scale-x" src="https://i.pinimg.com/474x/dd/2e/f9/dd2ef9e63dd40b044b2b868b2b3c5fb2.jpg">
+            </div>
+            <h1>Transform:scaleX ()</h1>
+        </div>
+        <div class="translate2">
+            <div class="y">
+                <img class="scale-y"
+                    src="https://c4.wallpaperflare.com/wallpaper/56/878/323/pubg-playerunknown-s-battlegrounds-4k-wallpaper-preview.jpg">
+            </div>
+            <h1>Transform:ScaleY ()</h1>
+        </div>
+        <div class="translate2">
+            <div class="z">
+                <img class="scale" src="https://www.teahub.io/photos/full/33-330686_pubg-4k-wallpaper-for-pc.jpg">
+            </div>
+            <h1>Transform:Scale ()</h1>
+        </div>
+
+    </div>
+
+    <!--transform4-->
+    <div class="Transition4">
+        <div class="translate3">
+            <div class="A">
+                <img class="rotate-x"
+                    src="https://www.hdwallpapers.in/download/pubg_mobile_squad_2020_4k_hd_games-3840x2160.jpg">
+            </div>
+            <h1>Transform:rotateX ()</h1>
+        </div>
+        <div class="translate3">
+            <div class="B">
+                <img class="rotate-y"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAd0oJIeQg0l-ycKlBaP2HGhW8OUTDXyiOrw&usqp=CAU">
+            </div>
+            <h1>Transform:rotateY ()</h1>
+        </div>
+        <div class="translate3">
+            <div class="C">
+                <img class="rotate"
+                    src="https://a-static.besthdwallpaper.com/playerunknown-s-battlegrounds-pubg-mobile-global-championship-skin-set-wallpaper-2560x1080-63571_14.jpg">
+            </div>
+            <h1>Transform:rotate ()</h1>
+        </div>
+    </div>
+
+    <!--transform5-->
+    <div class="Transition5">
+        <div class="translate4">
+            <div class="M">
+                <img class="skew-x"
+                    src="https://c4.wallpaperflare.com/wallpaper/508/554/533/pubg-mobile-gaming-series-hd-wallpaper-thumb.jpg">
+            </div>
+            <h1>Transform:skewX ()</h1>
+        </div>
+        <div class="translate4">
+            <div class="O">
+                <img class="skew-y" src="https://wallpapercave.com/wp/wp8432440.jpg">
+            </div>
+            <h1>Transform:skewY ()</h1>
+        </div>
+        <div class="translate4">
+            <div class="R">
+                <img class="skew" src="https://wallpapercave.com/wp/wp12099804.jpg">
+            </div>
+            <h1>Transform:skew ()</h1>
+        </div>
+
+    </div>
+
+    <!--transform6-->
+    <div class="Transition6">
+        <div class="translate5">
+            <div class="P">
+                <img class="transition-t"
+                    src="https://www.bhmpics.com/downloads/pubg-arena-Wallpapers/50.ibr-header.jpg">
+            </div>
+            <h1>Transition</h1>
+            <h5>Property : Transform - translate</h5>
+        </div>
+        <div class="translate5">
+            <div class="Q">
+                <img class="transition-b" src="https://wallpaper.dog/large/10761044.jpg">
+            </div>
+            <h1>Transform</h1>
+            <h5>Property : Transform - translate and border-radius</h5>
+        </div>
+        <div class="translate5">
+            <div class="E">
+                <img class="transition" src="https://wallpaperaccess.com/full/3734502.png">
+            </div>
+            <h1>Transition with delay</h1>
+            <h5>Using delay Property</h5>
+        </div>
+    </div>
+
+    <!--transform7-->
+    <div class="Transition7">
+        <div class="translate6">
+            <div class="S">
+                <img class="default tran"
+                    src="https://images.wallpapersden.com/image/download/pubg-halloween-4k_bmZsZmaUmZqaraWkpJRobWllrWdma2U.jpg">
+            </div>
+            <h1>Animation</h1>
+            <h5>Default</h5>
+        </div>
+        <div class="translate6">
+            <div class="D">
+                <img class="ease tran" src="https://images.hdqwalls.com/wallpapers/pubg-halloween-2021-tz.jpg">
+            </div>
+            <h1>Animation</h1>
+            <h5>Ease</h5>
+        </div>
+        <div class="translate6">
+            <div class="F">
+                <img class="linear tran" src="https://images7.alphacoders.com/128/1287775.jpg">
+            </div>
+            <h1>Animation</h1>
+            <h5>Linear</h5>
+        </div>
+
+    </div>
+    <!--transform8-->
+    <div class="Transition8">
+        <div class="translate7">
+            <div class="L">
+                <img class="ease-in tran"
+                    src="https://a-static.besthdwallpaper.com/motorbike-chase-playerunknown-s-battlegrounds-pubg-wallpaper-1920x1080-74800_48.jpg">
+            </div>
+            <h1>Animation</h1>
+            <h5>Ease-In</h5>
+        </div>
+        <div class="translate7">
+            <div class="O">
+                <img class="ease-out tran" src="https://wallpapercave.com/wp/wp5160973.jpg">
+            </div>
+            <h1>Animation</h1>
+            <h5>Ease-Out</h5>
+        </div>
+        <div class="translate7">
+            <div class="V">
+                <img class="ease-in-out tran"
+                    src="https://www.pixel4k.com/wp-content/uploads/2020/05/pubg-season-7-4k_1589582481.jpg.webp">
+            </div>
+            <h1>Animation</h1>
+            <h5>Ease-In-Out</h5>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

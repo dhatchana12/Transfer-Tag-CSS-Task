@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head1 {
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.head2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Courier New';
+    font-size: x-large;
+
+}
+
+.head3 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.main2 {
+    height: 200px;
+    margin: 10px auto;
+    width: 346px;
+    border: 1px solid black;
+}
+
+img {
+    height: 200px;
+    width: 346px;
+}
+
+.Transition {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.Transform1 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+h1 {
+    margin-top: 18px;
+    font-family: "Protest Revolution";
+    font-weight: bold;
+    font-size: x-large;
+}
+.translate-x {
+    transform: translatex(45px);
+}
+
+.translate-y {
+    transform: translatey(40px);
+    margin-bottom: 20px;
+}
+
+.translate {
+    transform: translate(30px, 25px);
+}
+
+.Transition2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate1 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.translate-xn {
+    transform: translatex(-40px);
+}
+
+.translate-yn {
+    transform: translatey(-35px);
+}
+
+.translaten {
+    transform: translate(-35px, -30px);
+}
+
+.Transition3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate2 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.scale-x {
+    transform: scaleX(0.5);
+}
+
+.scale-y {
+    transform: scaleY(0.5);
+}
+
+.scale {
+    transform: scale(0.8, 0.8);
+}
+
+.Transition4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate3 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.rotate-x {
+    transform: rotateX(50deg);
+}
+
+.rotate-y {
+    transform: rotateY(50deg);
+}
+
+.rotate {
+    transform: rotate(10deg);
+}
+
+.Transition5 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate4 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.skew-x {
+    transform: skewX(10deg);
+}
+
+.skew-y {
+    transform: skewY(10deg);
+}
+
+.skew {
+    transform: skew(10deg, 10deg);
+}
+
+.Transition6 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate5 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+h5 {
+    margin-top: 5px;
+    font-family: 'Lucida Sans';
+    font-size: large;
+}
+
+.transition-t:hover {
+    transform: translate(30px);
+}
+
+.transition-b:hover {
+    transform: translate(30px);
+    border-radius: 30%;
+}
+
+.transition:hover {
+    transform: translate(30px);
+    border-radius: 50%;
+}
+
+.transition-t {
+    transition-property: all;
+    transition-duration: 5s;
+}
+
+.transition-b {
+    transition-property: all, border-radius;
+    transition-duration: 5s;
+}
+
+.transition {
+    transition-property: all, border-radius;
+    transition-duration: 5s;
+    transition-delay: 3s;
+}
+
+
+
+.Transition7 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate6 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.tran:hover {
+    transform: scale(1.1);
+    border-radius: 7%;
+    transform: translate(20px, -20px);
+    transition: all 5s;
+}
+
+.Transition8 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+    margin: 90px 80px;
+}
+
+.translate7 {
+    width: 346px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
